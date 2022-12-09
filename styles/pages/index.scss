@@ -30,7 +30,7 @@
 
 .hero-text {
   line-height: 100%;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 800;
   color: $black;
   margin-bottom: 32px;
@@ -43,8 +43,8 @@
 
 .logo-animated {
   position: relative;
-  height: 300px;
-  width: 300px;
+  height: 240px;
+  width: 240px;
   margin-bottom: 40px;
   @include sm {
     height: 200px;
@@ -60,7 +60,7 @@
   overflow: hidden;
   margin-bottom: 32px;
   &-text {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 100%;
     font-weight: 300;
     text-align: center;
