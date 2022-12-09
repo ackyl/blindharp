@@ -12,7 +12,7 @@ export default function ImageNext(props: ImageProps) {
 
   return (
     <>
-      {loading && <SkeletonLoader />}
+      {/* {loading && <SkeletonLoader />} */}
       {/* eslint-disable-next-line jsx-a11y/alt-text */}
       <Image loader={myLoader} unoptimized={true} onLoadingComplete={() => setLoading(false)} {...props} />
     </>
